@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="SeleniumUtils.SeleniumActions">
+        <methods>
+          <include name="click"/>
+        </methods>
+      </class> <!-- SeleniumUtils.SeleniumActions -->
+      <class name="createUser.redbus">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="busbookings"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- createUser.redbus -->
+      <class name="createUser.handleWindow">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="handleMultiplewindowa"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- createUser.handleWindow -->
+      <class name="createUser.handleWait">
+        <methods>
+          <include name="ExplicitHandle"/>
+          <include name="handlewaitforselenium"/>
+          <include name="launchBrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- createUser.handleWait -->
+      <class name="createUser.pagination">
+        <methods>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- createUser.pagination -->
+      <class name="createUser.createUser">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="MailingInformation"/>
+          <include name="ContactInformation"/>
+          <include name="UserInformation"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- createUser.createUser -->
+      <class name="createUser.calender">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="launchBrowser"/>
+          <include name="Calender"/>
+        </methods>
+      </class> <!-- createUser.calender -->
+      <class name="createUser.HandleFrame">
+        <methods>
+          <include name="handleFrameInselenium"/>
+          <include name="launchBrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- createUser.HandleFrame -->
+      <class name="createUser.dataTable">
+        <methods>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- createUser.dataTable -->
+      <class name="createUser.amzon">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closebrowser"/>
+          <include name="CheckSearchboxEnableOrNo"/>
+        </methods>
+      </class> <!-- createUser.amzon -->
+      <class name="createUser.handleAlert">
+        <methods>
+          <include name="handleralert"/>
+          <include name="closebrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- createUser.handleAlert -->
+      <class name="createUser.uploadFile">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="performFileupload"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- createUser.uploadFile -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

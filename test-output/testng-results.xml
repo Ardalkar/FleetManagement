@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-05T17:24:50 IST" name="Default suite" finished-at="2025-02-05T17:24:56 IST" duration-ms="5640">
+    <groups>
+    </groups>
+    <test started-at="2025-02-05T17:24:50 IST" name="Default test" finished-at="2025-02-05T17:24:56 IST" duration-ms="5640">
+      <class name="createUser.dropdown">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:createUser.dropdown@489115ef]" started-at="2025-02-05T17:24:50 IST" name="launchBrowser" finished-at="2025-02-05T17:24:53 IST" duration-ms="2644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="ddwork()[pri:0, instance:createUser.dropdown@489115ef]" started-at="2025-02-05T17:24:53 IST" name="ddwork" finished-at="2025-02-05T17:24:56 IST" duration-ms="2745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ddwork -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:createUser.dropdown@489115ef]" started-at="2025-02-05T17:24:56 IST" name="closebrowser" finished-at="2025-02-05T17:24:56 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- createUser.dropdown -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
